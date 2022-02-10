@@ -53,7 +53,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "I wait menu bar element 5 seconds",
+  "name": "I wait menu bar element 7 seconds",
   "keyword": "Then "
 });
 formatter.match({
@@ -94,7 +94,7 @@ formatter.result({
 });
 formatter.step({
   "name": "I wait oscars element 5 seconds",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.match({
   "location": "MySteps.waitElement(String,int)"
@@ -113,11 +113,51 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
+  "name": "I click \"PAGE_DOWN\" keyboard button",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MySteps.clickKeyboard(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click \"PAGE_DOWN\" keyboard button",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MySteps.clickKeyboard(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I wait 1929 element 5 seconds",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MySteps.waitElement(String,int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
   "name": "I click element: 1929 index: 1",
   "keyword": "When "
 });
 formatter.match({
   "location": "MySteps.clickElement(String,int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I wait the jazz singer element 5 seconds",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MySteps.waitElement(String,int)"
 });
 formatter.result({
   "status": "passed"
@@ -133,11 +173,31 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
+  "name": "I click \"PAGE_DOWN\" keyboard button",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MySteps.clickKeyboard(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
   "name": "I see search results page",
   "keyword": "Then "
 });
 formatter.match({
   "location": "MySteps.seePage(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I wait for 10 seconds",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MySteps.waitForNSeconds(int)"
 });
 formatter.result({
   "status": "passed"
@@ -253,6 +313,16 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
+  "name": "I wait anasayfa element 5 seconds",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MySteps.waitElement(String,int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
   "name": "I click element: anasayfa index: 1",
   "keyword": "When "
 });
@@ -328,6 +398,16 @@ formatter.step({
 });
 formatter.match({
   "location": "MySteps.seePage(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I wait for 10 seconds",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MySteps.waitForNSeconds(int)"
 });
 formatter.result({
   "status": "passed"
@@ -458,6 +538,16 @@ formatter.step({
 });
 formatter.match({
   "location": "MySteps.clickElement(String,int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I wait for 10 seconds",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MySteps.waitForNSeconds(int)"
 });
 formatter.result({
   "status": "passed"

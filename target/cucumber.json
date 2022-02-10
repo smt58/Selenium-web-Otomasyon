@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2610168700,
+              "duration": 3559806200,
               "status": "passed"
             },
             "line": 4,
@@ -29,7 +29,7 @@
           },
           {
             "result": {
-              "duration": 4115457700,
+              "duration": 8851843700,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 2186200,
+              "duration": 5100700,
               "status": "passed"
             },
             "line": 6,
@@ -66,11 +66,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-10T08:51:38.532Z",
+        "start_timestamp": "2022-02-10T11:28:27.058Z",
         "before": [
           {
             "result": {
-              "duration": 9380300,
+              "duration": 8953000,
               "status": "passed"
             },
             "match": {
@@ -85,7 +85,7 @@
         "after": [
           {
             "result": {
-              "duration": 929276200,
+              "duration": 1082922500,
               "status": "passed"
             },
             "match": {
@@ -98,11 +98,11 @@
         "steps": [
           {
             "result": {
-              "duration": 2031566400,
+              "duration": 2778360800,
               "status": "passed"
             },
             "line": 10,
-            "name": "I wait menu bar element 5 seconds",
+            "name": "I wait menu bar element 7 seconds",
             "match": {
               "arguments": [
                 {
@@ -110,7 +110,7 @@
                   "offset": 7
                 },
                 {
-                  "val": "5",
+                  "val": "7",
                   "offset": 24
                 }
               ],
@@ -120,7 +120,7 @@
           },
           {
             "result": {
-              "duration": 714808200,
+              "duration": 633940100,
               "status": "passed"
             },
             "line": 11,
@@ -142,10 +142,10 @@
           },
           {
             "result": {
-              "duration": 172710400,
+              "duration": 256786000,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "I click \"PAGE_DOWN\" keyboard button",
             "match": {
               "arguments": [
@@ -160,7 +160,7 @@
           },
           {
             "result": {
-              "duration": 423700,
+              "duration": 787000,
               "status": "passed"
             },
             "line": 14,
@@ -178,7 +178,7 @@
           },
           {
             "result": {
-              "duration": 2033131900,
+              "duration": 2106202200,
               "status": "passed"
             },
             "line": 15,
@@ -196,11 +196,11 @@
               ],
               "location": "MySteps.waitElement(String,int)"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 2986382600,
+              "duration": 3807807500,
               "status": "passed"
             },
             "line": 16,
@@ -222,10 +222,68 @@
           },
           {
             "result": {
-              "duration": 2319375300,
+              "duration": 82468400,
               "status": "passed"
             },
-            "line": 17,
+            "line": 18,
+            "name": "I click \"PAGE_DOWN\" keyboard button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PAGE_DOWN",
+                  "offset": 9
+                }
+              ],
+              "location": "MySteps.clickKeyboard(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45105100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click \"PAGE_DOWN\" keyboard button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PAGE_DOWN",
+                  "offset": 9
+                }
+              ],
+              "location": "MySteps.clickKeyboard(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2059144600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I wait 1929 element 5 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1929",
+                  "offset": 7
+                },
+                {
+                  "val": "5",
+                  "offset": 20
+                }
+              ],
+              "location": "MySteps.waitElement(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2239352200,
+              "status": "passed"
+            },
+            "line": 22,
             "name": "I click element: 1929 index: 1",
             "match": {
               "arguments": [
@@ -244,10 +302,32 @@
           },
           {
             "result": {
-              "duration": 4569770100,
+              "duration": 2039806400,
               "status": "passed"
             },
-            "line": 18,
+            "line": 23,
+            "name": "I wait the jazz singer element 5 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "the jazz singer",
+                  "offset": 7
+                },
+                {
+                  "val": "5",
+                  "offset": 31
+                }
+              ],
+              "location": "MySteps.waitElement(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5813650700,
+              "status": "passed"
+            },
+            "line": 24,
             "name": "I click element: the jazz singer index: 1",
             "match": {
               "arguments": [
@@ -266,10 +346,28 @@
           },
           {
             "result": {
-              "duration": 522000,
+              "duration": 210352200,
               "status": "passed"
             },
-            "line": 21,
+            "line": 25,
+            "name": "I click \"PAGE_DOWN\" keyboard button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PAGE_DOWN",
+                  "offset": 9
+                }
+              ],
+              "location": "MySteps.clickKeyboard(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1215800,
+              "status": "passed"
+            },
+            "line": 28,
             "name": "I see search results page",
             "match": {
               "arguments": [
@@ -284,10 +382,28 @@
           },
           {
             "result": {
-              "duration": 35274800,
+              "duration": 10013074400,
               "status": "passed"
             },
-            "line": 22,
+            "line": 29,
+            "name": "I wait for 10 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 11
+                }
+              ],
+              "location": "MySteps.waitForNSeconds(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43216400,
+              "status": "passed"
+            },
+            "line": 30,
             "name": "I save director elementi listeye ekle:0",
             "match": {
               "arguments": [
@@ -306,10 +422,10 @@
           },
           {
             "result": {
-              "duration": 35076800,
+              "duration": 38080400,
               "status": "passed"
             },
-            "line": 23,
+            "line": 31,
             "name": "I save writer1 elementi listeye ekle:0",
             "match": {
               "arguments": [
@@ -328,10 +444,10 @@
           },
           {
             "result": {
-              "duration": 29485800,
+              "duration": 45116800,
               "status": "passed"
             },
-            "line": 24,
+            "line": 32,
             "name": "I save play elementi listeye ekle:0",
             "match": {
               "arguments": [
@@ -350,10 +466,10 @@
           },
           {
             "result": {
-              "duration": 35049400,
+              "duration": 45101700,
               "status": "passed"
             },
-            "line": 25,
+            "line": 33,
             "name": "I save writer2 elementi listeye ekle:0",
             "match": {
               "arguments": [
@@ -372,10 +488,10 @@
           },
           {
             "result": {
-              "duration": 38868300,
+              "duration": 47478400,
               "status": "passed"
             },
-            "line": 26,
+            "line": 34,
             "name": "I save adaptation elementi listeye ekle:0",
             "match": {
               "arguments": [
@@ -394,10 +510,10 @@
           },
           {
             "result": {
-              "duration": 34313500,
+              "duration": 42171500,
               "status": "passed"
             },
-            "line": 27,
+            "line": 35,
             "name": "I save writer3 elementi listeye ekle:0",
             "match": {
               "arguments": [
@@ -416,10 +532,10 @@
           },
           {
             "result": {
-              "duration": 30810500,
+              "duration": 45938100,
               "status": "passed"
             },
-            "line": 28,
+            "line": 36,
             "name": "I save titles elementi listeye ekle:0",
             "match": {
               "arguments": [
@@ -438,10 +554,10 @@
           },
           {
             "result": {
-              "duration": 30190100,
+              "duration": 40596900,
               "status": "passed"
             },
-            "line": 29,
+            "line": 37,
             "name": "I save star1 elementi listeye ekle:0",
             "match": {
               "arguments": [
@@ -460,10 +576,10 @@
           },
           {
             "result": {
-              "duration": 30513200,
+              "duration": 44224700,
               "status": "passed"
             },
-            "line": 30,
+            "line": 38,
             "name": "I save star2 elementi listeye ekle:0",
             "match": {
               "arguments": [
@@ -482,10 +598,10 @@
           },
           {
             "result": {
-              "duration": 33004800,
+              "duration": 33400500,
               "status": "passed"
             },
-            "line": 31,
+            "line": 39,
             "name": "I save star3 elementi listeye ekle:0",
             "match": {
               "arguments": [
@@ -504,10 +620,10 @@
           },
           {
             "result": {
-              "duration": 352800,
+              "duration": 697300,
               "status": "passed"
             },
-            "line": 35,
+            "line": 43,
             "name": "I see home page",
             "match": {
               "arguments": [
@@ -522,10 +638,32 @@
           },
           {
             "result": {
-              "duration": 3370651800,
+              "duration": 2026904900,
               "status": "passed"
             },
-            "line": 36,
+            "line": 44,
+            "name": "I wait anasayfa element 5 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "anasayfa",
+                  "offset": 7
+                },
+                {
+                  "val": "5",
+                  "offset": 24
+                }
+              ],
+              "location": "MySteps.waitElement(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6082328800,
+              "status": "passed"
+            },
+            "line": 45,
             "name": "I click element: anasayfa index: 1",
             "match": {
               "arguments": [
@@ -544,10 +682,10 @@
           },
           {
             "result": {
-              "duration": 2028091000,
+              "duration": 2071068000,
               "status": "passed"
             },
-            "line": 37,
+            "line": 46,
             "name": "I wait search element 5 seconds",
             "match": {
               "arguments": [
@@ -566,10 +704,10 @@
           },
           {
             "result": {
-              "duration": 1619541500,
+              "duration": 7202149300,
               "status": "passed"
             },
-            "line": 38,
+            "line": 47,
             "name": "I send text \"The Jazz Singer\" to  \"search\" element",
             "match": {
               "arguments": [
@@ -588,10 +726,10 @@
           },
           {
             "result": {
-              "duration": 2132994000,
+              "duration": 2342926100,
               "status": "passed"
             },
-            "line": 39,
+            "line": 48,
             "name": "I wait ok element 5 seconds",
             "match": {
               "arguments": [
@@ -610,10 +748,10 @@
           },
           {
             "result": {
-              "duration": 2277424400,
+              "duration": 6528747900,
               "status": "passed"
             },
-            "line": 40,
+            "line": 49,
             "name": "I click element: ok index: 1",
             "match": {
               "arguments": [
@@ -632,10 +770,10 @@
           },
           {
             "result": {
-              "duration": 2019401100,
+              "duration": 2029933000,
               "status": "passed"
             },
-            "line": 41,
+            "line": 50,
             "name": "I wait Caz Mugannisi element 5 seconds",
             "match": {
               "arguments": [
@@ -654,10 +792,10 @@
           },
           {
             "result": {
-              "duration": 5782969600,
+              "duration": 5227441200,
               "status": "passed"
             },
-            "line": 42,
+            "line": 51,
             "name": "I click element: Caz Mugannisi index: 1",
             "match": {
               "arguments": [
@@ -676,10 +814,10 @@
           },
           {
             "result": {
-              "duration": 1101100,
+              "duration": 657800,
               "status": "passed"
             },
-            "line": 45,
+            "line": 54,
             "name": "I see search results page",
             "match": {
               "arguments": [
@@ -694,10 +832,28 @@
           },
           {
             "result": {
-              "duration": 74537300,
+              "duration": 10002671900,
               "status": "passed"
             },
-            "line": 46,
+            "line": 55,
+            "name": "I wait for 10 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 11
+                }
+              ],
+              "location": "MySteps.waitForNSeconds(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 70137300,
+              "status": "passed"
+            },
+            "line": 57,
             "name": "I save director elementi listeye ekle:1",
             "match": {
               "arguments": [
@@ -716,10 +872,10 @@
           },
           {
             "result": {
-              "duration": 249763900,
+              "duration": 45592700,
               "status": "passed"
             },
-            "line": 47,
+            "line": 58,
             "name": "I save writer1 elementi listeye ekle:1",
             "match": {
               "arguments": [
@@ -738,10 +894,10 @@
           },
           {
             "result": {
-              "duration": 189115800,
+              "duration": 42840100,
               "status": "passed"
             },
-            "line": 48,
+            "line": 59,
             "name": "I save play elementi listeye ekle:1",
             "match": {
               "arguments": [
@@ -760,10 +916,10 @@
           },
           {
             "result": {
-              "duration": 45227200,
+              "duration": 46226900,
               "status": "passed"
             },
-            "line": 49,
+            "line": 60,
             "name": "I save writer2 elementi listeye ekle:1",
             "match": {
               "arguments": [
@@ -782,10 +938,10 @@
           },
           {
             "result": {
-              "duration": 31612100,
+              "duration": 43016800,
               "status": "passed"
             },
-            "line": 50,
+            "line": 61,
             "name": "I save adaptation elementi listeye ekle:1",
             "match": {
               "arguments": [
@@ -804,10 +960,10 @@
           },
           {
             "result": {
-              "duration": 31024200,
+              "duration": 48283900,
               "status": "passed"
             },
-            "line": 51,
+            "line": 62,
             "name": "I save writer3 elementi listeye ekle:1",
             "match": {
               "arguments": [
@@ -826,10 +982,10 @@
           },
           {
             "result": {
-              "duration": 96413500,
+              "duration": 52356100,
               "status": "passed"
             },
-            "line": 52,
+            "line": 63,
             "name": "I save titles elementi listeye ekle:1",
             "match": {
               "arguments": [
@@ -848,10 +1004,10 @@
           },
           {
             "result": {
-              "duration": 39088100,
+              "duration": 49453100,
               "status": "passed"
             },
-            "line": 53,
+            "line": 64,
             "name": "I save star1 elementi listeye ekle:1",
             "match": {
               "arguments": [
@@ -870,10 +1026,10 @@
           },
           {
             "result": {
-              "duration": 35222300,
+              "duration": 42179800,
               "status": "passed"
             },
-            "line": 54,
+            "line": 65,
             "name": "I save star2 elementi listeye ekle:1",
             "match": {
               "arguments": [
@@ -892,10 +1048,10 @@
           },
           {
             "result": {
-              "duration": 30746700,
+              "duration": 41652300,
               "status": "passed"
             },
-            "line": 55,
+            "line": 66,
             "name": "I save star3 elementi listeye ekle:1",
             "match": {
               "arguments": [
@@ -914,10 +1070,10 @@
           },
           {
             "result": {
-              "duration": 606700,
+              "duration": 615800,
               "status": "passed"
             },
-            "line": 57,
+            "line": 68,
             "name": "I see home page",
             "match": {
               "arguments": [
@@ -932,10 +1088,10 @@
           },
           {
             "result": {
-              "duration": 1975300,
+              "duration": 3438600,
               "status": "passed"
             },
-            "line": 59,
+            "line": 70,
             "name": "I compare list",
             "match": {
               "location": "MySteps.comparelist()"
@@ -944,10 +1100,10 @@
           },
           {
             "result": {
-              "duration": 2935404300,
+              "duration": 5767184500,
               "status": "passed"
             },
-            "line": 61,
+            "line": 71,
             "name": "I click element: see all photos index: 1",
             "match": {
               "arguments": [
@@ -966,10 +1122,28 @@
           },
           {
             "result": {
-              "duration": 23962749700,
+              "duration": 10005734500,
               "status": "passed"
             },
-            "line": 63,
+            "line": 73,
+            "name": "I wait for 10 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 11
+                }
+              ],
+              "location": "MySteps.waitForNSeconds(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11413752300,
+              "status": "passed"
+            },
+            "line": 74,
             "name": "I broken image detect",
             "match": {
               "location": "MySteps.brokenimage()"
