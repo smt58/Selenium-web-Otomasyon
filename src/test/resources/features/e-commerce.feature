@@ -15,8 +15,6 @@ Feature: E-commerce
     And I wait oscars element 5 seconds
     When I click element: oscars index: 1
 
-    Then I click "PAGE_DOWN" keyboard button
-    Then I click "PAGE_DOWN" keyboard button
 
     Then I wait 1929 element 5 seconds
     When I click element: 1929 index: 1
@@ -68,6 +66,7 @@ Feature: E-commerce
     Then I see home page
     #iki arama sonucu liste olarak karşılaştırılır
     When I compare list
+    
     When I click element: see all photos index: 1
     #broken image kontrol check edilir
     Then I wait for 10 seconds

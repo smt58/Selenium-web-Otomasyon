@@ -15,8 +15,6 @@ Feature: E-commerce
     And I wait oscars element 5 seconds
     When I click element: oscars index: 1
 
-    Then I click "PAGE_DOWN" keyboard button
-    Then I click "PAGE_DOWN" keyboard button
 
     Then I wait 1929 element 5 seconds
     When I click element: 1929 index: 1

@@ -70,6 +70,7 @@ public class WebSteps implements MainSteps {
         log.info("compare list");
 
         Assert.assertEquals(list, liste2);
+        log.info("list is equals");
 
     }
 

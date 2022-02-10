@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="117.357447">
-    <testcase classname="E-commerce" name="Search Control" time="117.357447">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="105.975194">
+    <testcase classname="E-commerce" name="Search Control" time="105.975194">
         <system-out><![CDATA[Given I initialize chrome driver............................................passed
 When I go to "https://www.imdb.com/" url....................................passed
 Then I see home page........................................................passed
@@ -10,8 +10,6 @@ Then I click "PAGE_DOWN" keyboard button....................................pass
 And I see search page.......................................................passed
 And I wait oscars element 5 seconds.........................................passed
 When I click element: oscars index: 1.......................................passed
-Then I click "PAGE_DOWN" keyboard button....................................passed
-Then I click "PAGE_DOWN" keyboard button....................................passed
 Then I wait 1929 element 5 seconds..........................................passed
 When I click element: 1929 index: 1.........................................passed
 Then I wait the jazz singer element 5 seconds...............................passed

@@ -5,12 +5,12 @@
       {
         "name": "I initialize chrome driver",
         "aggregatedDurations": {
-          "median": 3.5598062,
-          "average": 3.559806200
+          "median": 3.6366277,
+          "average": 3.636627700
         },
         "durations": [
           {
-            "duration": 3.5598062,
+            "duration": 3.6366277,
             "location": "file:src/test/resources/features/e-commerce.feature:4"
           }
         ]
@@ -23,12 +23,12 @@
       {
         "name": "I go to \"https://www.imdb.com/\" url",
         "aggregatedDurations": {
-          "median": 8.8518437,
-          "average": 8.851843700
+          "median": 6.8992887,
+          "average": 6.899288700
         },
         "durations": [
           {
-            "duration": 8.8518437,
+            "duration": 6.8992887,
             "location": "file:src/test/resources/features/e-commerce.feature:5"
           }
         ]
@@ -41,33 +41,33 @@
       {
         "name": "I see home page",
         "aggregatedDurations": {
-          "median": 0.0006973,
-          "average": 0.002137933
+          "median": 0.0008838,
+          "average": 0.002184800
         },
         "durations": [
           {
-            "duration": 0.0051007,
+            "duration": 0.0050247,
             "location": "file:src/test/resources/features/e-commerce.feature:6"
           },
           {
-            "duration": 0.0006973,
-            "location": "file:src/test/resources/features/e-commerce.feature:43"
+            "duration": 0.0006459,
+            "location": "file:src/test/resources/features/e-commerce.feature:41"
           },
           {
-            "duration": 0.0006158,
-            "location": "file:src/test/resources/features/e-commerce.feature:68"
+            "duration": 0.0008838,
+            "location": "file:src/test/resources/features/e-commerce.feature:66"
           }
         ]
       },
       {
         "name": "I see search page",
         "aggregatedDurations": {
-          "median": 0.000787,
-          "average": 0.000787000
+          "median": 0.0009109,
+          "average": 0.000910900
         },
         "durations": [
           {
-            "duration": 0.000787,
+            "duration": 0.0009109,
             "location": "file:src/test/resources/features/e-commerce.feature:14"
           }
         ]
@@ -75,17 +75,17 @@
       {
         "name": "I see search results page",
         "aggregatedDurations": {
-          "median": 0.000936800,
-          "average": 0.000936800
+          "median": 0.000806750,
+          "average": 0.000806750
         },
         "durations": [
           {
-            "duration": 0.0012158,
-            "location": "file:src/test/resources/features/e-commerce.feature:28"
+            "duration": 0.0008776,
+            "location": "file:src/test/resources/features/e-commerce.feature:26"
           },
           {
-            "duration": 0.0006578,
-            "location": "file:src/test/resources/features/e-commerce.feature:54"
+            "duration": 0.0007359,
+            "location": "file:src/test/resources/features/e-commerce.feature:52"
           }
         ]
       }
@@ -97,12 +97,12 @@
       {
         "name": "I wait menu bar element 7 seconds",
         "aggregatedDurations": {
-          "median": 2.7783608,
-          "average": 2.778360800
+          "median": 3.3274608,
+          "average": 3.327460800
         },
         "durations": [
           {
-            "duration": 2.7783608,
+            "duration": 3.3274608,
             "location": "file:src/test/resources/features/e-commerce.feature:10"
           }
         ]
@@ -110,12 +110,12 @@
       {
         "name": "I wait oscars element 5 seconds",
         "aggregatedDurations": {
-          "median": 2.1062022,
-          "average": 2.106202200
+          "median": 2.1079353,
+          "average": 2.107935300
         },
         "durations": [
           {
-            "duration": 2.1062022,
+            "duration": 2.1079353,
             "location": "file:src/test/resources/features/e-commerce.feature:15"
           }
         ]
@@ -123,78 +123,78 @@
       {
         "name": "I wait 1929 element 5 seconds",
         "aggregatedDurations": {
-          "median": 2.0591446,
-          "average": 2.059144600
+          "median": 2.0301448,
+          "average": 2.030144800
         },
         "durations": [
           {
-            "duration": 2.0591446,
-            "location": "file:src/test/resources/features/e-commerce.feature:21"
+            "duration": 2.0301448,
+            "location": "file:src/test/resources/features/e-commerce.feature:19"
           }
         ]
       },
       {
         "name": "I wait the jazz singer element 5 seconds",
         "aggregatedDurations": {
-          "median": 2.0398064,
-          "average": 2.039806400
+          "median": 2.0363629,
+          "average": 2.036362900
         },
         "durations": [
           {
-            "duration": 2.0398064,
-            "location": "file:src/test/resources/features/e-commerce.feature:23"
+            "duration": 2.0363629,
+            "location": "file:src/test/resources/features/e-commerce.feature:21"
           }
         ]
       },
       {
         "name": "I wait anasayfa element 5 seconds",
         "aggregatedDurations": {
-          "median": 2.0269049,
-          "average": 2.026904900
+          "median": 2.027974,
+          "average": 2.027974000
         },
         "durations": [
           {
-            "duration": 2.0269049,
-            "location": "file:src/test/resources/features/e-commerce.feature:44"
+            "duration": 2.027974,
+            "location": "file:src/test/resources/features/e-commerce.feature:42"
           }
         ]
       },
       {
         "name": "I wait search element 5 seconds",
         "aggregatedDurations": {
-          "median": 2.071068,
-          "average": 2.071068000
+          "median": 2.0501222,
+          "average": 2.050122200
         },
         "durations": [
           {
-            "duration": 2.071068,
-            "location": "file:src/test/resources/features/e-commerce.feature:46"
+            "duration": 2.0501222,
+            "location": "file:src/test/resources/features/e-commerce.feature:44"
           }
         ]
       },
       {
         "name": "I wait ok element 5 seconds",
         "aggregatedDurations": {
-          "median": 2.3429261,
-          "average": 2.342926100
+          "median": 2.2197188,
+          "average": 2.219718800
         },
         "durations": [
           {
-            "duration": 2.3429261,
-            "location": "file:src/test/resources/features/e-commerce.feature:48"
+            "duration": 2.2197188,
+            "location": "file:src/test/resources/features/e-commerce.feature:46"
           }
         ]
       },
       {
         "name": "I wait Caz Mugannisi element 5 seconds",
         "aggregatedDurations": {
-          "median": 2.029933,
-          "average": 2.029933000
+          "median": 2.0307479,
+          "average": 2.030747900
         },
         "durations": [
           {
-            "duration": 2.029933,
-            "location": "file:src/test/resources/features/e-commerce.feature:50"
+            "duration": 2.0307479,
+            "location": "file:src/test/resources/features/e-commerce.feature:48"
           }
         ]
       }
@@ -206,12 +206,12 @@
       {
         "name": "I click element: menu bar index: 1",
         "aggregatedDurations": {
-          "median": 0.6339401,
-          "average": 0.633940100
+          "median": 1.1207352,
+          "average": 1.120735200
         },
         "durations": [
           {
-            "duration": 0.6339401,
+            "duration": 1.1207352,
             "location": "file:src/test/resources/features/e-commerce.feature:11"
           }
         ]
@@ -219,12 +219,12 @@
       {
         "name": "I click element: oscars index: 1",
         "aggregatedDurations": {
-          "median": 3.8078075,
-          "average": 3.807807500
+          "median": 3.376153,
+          "average": 3.376153000
         },
         "durations": [
           {
-            "duration": 3.8078075,
+            "duration": 3.376153,
             "location": "file:src/test/resources/features/e-commerce.feature:16"
           }
         ]
@@ -232,78 +232,78 @@
       {
         "name": "I click element: 1929 index: 1",
         "aggregatedDurations": {
-          "median": 2.2393522,
-          "average": 2.239352200
+          "median": 2.5724939,
+          "average": 2.572493900
         },
         "durations": [
           {
-            "duration": 2.2393522,
-            "location": "file:src/test/resources/features/e-commerce.feature:22"
+            "duration": 2.5724939,
+            "location": "file:src/test/resources/features/e-commerce.feature:20"
           }
         ]
       },
       {
         "name": "I click element: the jazz singer index: 1",
         "aggregatedDurations": {
-          "median": 5.8136507,
-          "average": 5.813650700
+          "median": 7.4772984,
+          "average": 7.477298400
         },
         "durations": [
           {
-            "duration": 5.8136507,
-            "location": "file:src/test/resources/features/e-commerce.feature:24"
+            "duration": 7.4772984,
+            "location": "file:src/test/resources/features/e-commerce.feature:22"
           }
         ]
       },
       {
         "name": "I click element: anasayfa index: 1",
         "aggregatedDurations": {
-          "median": 6.0823288,
-          "average": 6.082328800
+          "median": 5.2306519,
+          "average": 5.230651900
         },
         "durations": [
           {
-            "duration": 6.0823288,
-            "location": "file:src/test/resources/features/e-commerce.feature:45"
+            "duration": 5.2306519,
+            "location": "file:src/test/resources/features/e-commerce.feature:43"
           }
         ]
       },
       {
         "name": "I click element: ok index: 1",
         "aggregatedDurations": {
-          "median": 6.5287479,
-          "average": 6.528747900
+          "median": 2.8047641,
+          "average": 2.804764100
         },
         "durations": [
           {
-            "duration": 6.5287479,
-            "location": "file:src/test/resources/features/e-commerce.feature:49"
+            "duration": 2.8047641,
+            "location": "file:src/test/resources/features/e-commerce.feature:47"
           }
         ]
       },
       {
         "name": "I click element: Caz Mugannisi index: 1",
         "aggregatedDurations": {
-          "median": 5.2274412,
-          "average": 5.227441200
+          "median": 5.6985677,
+          "average": 5.698567700
         },
         "durations": [
           {
-            "duration": 5.2274412,
-            "location": "file:src/test/resources/features/e-commerce.feature:51"
+            "duration": 5.6985677,
+            "location": "file:src/test/resources/features/e-commerce.feature:49"
           }
         ]
       },
       {
         "name": "I click element: see all photos index: 1",
         "aggregatedDurations": {
-          "median": 5.7671845,
-          "average": 5.767184500
+          "median": 3.5661619,
+          "average": 3.566161900
         },
         "durations": [
           {
-            "duration": 5.7671845,
-            "location": "file:src/test/resources/features/e-commerce.feature:71"
+            "duration": 3.5661619,
+            "location": "file:src/test/resources/features/e-commerce.feature:69"
           }
         ]
       }
@@ -315,25 +315,17 @@
       {
         "name": "I click \"PAGE_DOWN\" keyboard button",
         "aggregatedDurations": {
-          "median": 0.146410300,
-          "average": 0.148677925
+          "median": 0.247696400,
+          "average": 0.247696400
         },
         "durations": [
           {
-            "duration": 0.256786,
+            "duration": 0.2406534,
             "location": "file:src/test/resources/features/e-commerce.feature:13"
           },
           {
-            "duration": 0.0824684,
-            "location": "file:src/test/resources/features/e-commerce.feature:18"
-          },
-          {
-            "duration": 0.0451051,
-            "location": "file:src/test/resources/features/e-commerce.feature:19"
-          },
-          {
-            "duration": 0.2103522,
-            "location": "file:src/test/resources/features/e-commerce.feature:25"
+            "duration": 0.2547394,
+            "location": "file:src/test/resources/features/e-commerce.feature:23"
           }
         ]
       }
@@ -345,21 +337,21 @@
       {
         "name": "I wait for 10 seconds",
         "aggregatedDurations": {
-          "median": 10.0057345,
-          "average": 10.007160267
+          "median": 10.0142579,
+          "average": 10.013037400
         },
         "durations": [
           {
-            "duration": 10.0130744,
-            "location": "file:src/test/resources/features/e-commerce.feature:29"
+            "duration": 10.0142579,
+            "location": "file:src/test/resources/features/e-commerce.feature:27"
           },
           {
-            "duration": 10.0026719,
-            "location": "file:src/test/resources/features/e-commerce.feature:55"
+            "duration": 10.0147424,
+            "location": "file:src/test/resources/features/e-commerce.feature:53"
           },
           {
-            "duration": 10.0057345,
-            "location": "file:src/test/resources/features/e-commerce.feature:73"
+            "duration": 10.0101119,
+            "location": "file:src/test/resources/features/e-commerce.feature:71"
           }
         ]
       }
@@ -371,260 +363,260 @@
       {
         "name": "I save director elementi listeye ekle:0",
         "aggregatedDurations": {
-          "median": 0.0432164,
-          "average": 0.043216400
+          "median": 0.0475335,
+          "average": 0.047533500
         },
         "durations": [
           {
-            "duration": 0.0432164,
-            "location": "file:src/test/resources/features/e-commerce.feature:30"
+            "duration": 0.0475335,
+            "location": "file:src/test/resources/features/e-commerce.feature:28"
           }
         ]
       },
       {
         "name": "I save writer1 elementi listeye ekle:0",
         "aggregatedDurations": {
-          "median": 0.0380804,
-          "average": 0.038080400
+          "median": 0.0383856,
+          "average": 0.038385600
         },
         "durations": [
           {
-            "duration": 0.0380804,
-            "location": "file:src/test/resources/features/e-commerce.feature:31"
+            "duration": 0.0383856,
+            "location": "file:src/test/resources/features/e-commerce.feature:29"
           }
         ]
       },
       {
         "name": "I save play elementi listeye ekle:0",
         "aggregatedDurations": {
-          "median": 0.0451168,
-          "average": 0.045116800
+          "median": 0.0456057,
+          "average": 0.045605700
         },
         "durations": [
           {
-            "duration": 0.0451168,
-            "location": "file:src/test/resources/features/e-commerce.feature:32"
+            "duration": 0.0456057,
+            "location": "file:src/test/resources/features/e-commerce.feature:30"
           }
         ]
       },
       {
         "name": "I save writer2 elementi listeye ekle:0",
         "aggregatedDurations": {
-          "median": 0.0451017,
-          "average": 0.045101700
+          "median": 0.0483086,
+          "average": 0.048308600
         },
         "durations": [
           {
-            "duration": 0.0451017,
-            "location": "file:src/test/resources/features/e-commerce.feature:33"
+            "duration": 0.0483086,
+            "location": "file:src/test/resources/features/e-commerce.feature:31"
           }
         ]
       },
       {
         "name": "I save adaptation elementi listeye ekle:0",
         "aggregatedDurations": {
-          "median": 0.0474784,
-          "average": 0.047478400
+          "median": 0.0417861,
+          "average": 0.041786100
         },
         "durations": [
           {
-            "duration": 0.0474784,
-            "location": "file:src/test/resources/features/e-commerce.feature:34"
+            "duration": 0.0417861,
+            "location": "file:src/test/resources/features/e-commerce.feature:32"
           }
         ]
       },
       {
         "name": "I save writer3 elementi listeye ekle:0",
         "aggregatedDurations": {
-          "median": 0.0421715,
-          "average": 0.042171500
+          "median": 0.0492934,
+          "average": 0.049293400
         },
         "durations": [
           {
-            "duration": 0.0421715,
-            "location": "file:src/test/resources/features/e-commerce.feature:35"
+            "duration": 0.0492934,
+            "location": "file:src/test/resources/features/e-commerce.feature:33"
           }
         ]
       },
       {
         "name": "I save titles elementi listeye ekle:0",
         "aggregatedDurations": {
-          "median": 0.0459381,
-          "average": 0.045938100
+          "median": 0.0478406,
+          "average": 0.047840600
         },
         "durations": [
           {
-            "duration": 0.0459381,
-            "location": "file:src/test/resources/features/e-commerce.feature:36"
+            "duration": 0.0478406,
+            "location": "file:src/test/resources/features/e-commerce.feature:34"
           }
         ]
       },
       {
         "name": "I save star1 elementi listeye ekle:0",
         "aggregatedDurations": {
-          "median": 0.0405969,
-          "average": 0.040596900
+          "median": 0.0470235,
+          "average": 0.047023500
         },
         "durations": [
           {
-            "duration": 0.0405969,
-            "location": "file:src/test/resources/features/e-commerce.feature:37"
+            "duration": 0.0470235,
+            "location": "file:src/test/resources/features/e-commerce.feature:35"
           }
         ]
       },
       {
         "name": "I save star2 elementi listeye ekle:0",
         "aggregatedDurations": {
-          "median": 0.0442247,
-          "average": 0.044224700
+          "median": 0.0427165,
+          "average": 0.042716500
         },
         "durations": [
           {
-            "duration": 0.0442247,
-            "location": "file:src/test/resources/features/e-commerce.feature:38"
+            "duration": 0.0427165,
+            "location": "file:src/test/resources/features/e-commerce.feature:36"
           }
         ]
       },
       {
         "name": "I save star3 elementi listeye ekle:0",
         "aggregatedDurations": {
-          "median": 0.0334005,
-          "average": 0.033400500
+          "median": 0.0441896,
+          "average": 0.044189600
         },
         "durations": [
           {
-            "duration": 0.0334005,
-            "location": "file:src/test/resources/features/e-commerce.feature:39"
+            "duration": 0.0441896,
+            "location": "file:src/test/resources/features/e-commerce.feature:37"
           }
         ]
       },
       {
         "name": "I save director elementi listeye ekle:1",
         "aggregatedDurations": {
-          "median": 0.0701373,
-          "average": 0.070137300
+          "median": 0.0621431,
+          "average": 0.062143100
         },
         "durations": [
           {
-            "duration": 0.0701373,
-            "location": "file:src/test/resources/features/e-commerce.feature:57"
+            "duration": 0.0621431,
+            "location": "file:src/test/resources/features/e-commerce.feature:55"
           }
         ]
       },
       {
         "name": "I save writer1 elementi listeye ekle:1",
         "aggregatedDurations": {
-          "median": 0.0455927,
-          "average": 0.045592700
+          "median": 0.0456457,
+          "average": 0.045645700
         },
         "durations": [
           {
-            "duration": 0.0455927,
-            "location": "file:src/test/resources/features/e-commerce.feature:58"
+            "duration": 0.0456457,
+            "location": "file:src/test/resources/features/e-commerce.feature:56"
           }
         ]
       },
       {
         "name": "I save play elementi listeye ekle:1",
         "aggregatedDurations": {
-          "median": 0.0428401,
-          "average": 0.042840100
+          "median": 0.0472504,
+          "average": 0.047250400
         },
         "durations": [
           {
-            "duration": 0.0428401,
-            "location": "file:src/test/resources/features/e-commerce.feature:59"
+            "duration": 0.0472504,
+            "location": "file:src/test/resources/features/e-commerce.feature:57"
           }
         ]
       },
       {
         "name": "I save writer2 elementi listeye ekle:1",
         "aggregatedDurations": {
-          "median": 0.0462269,
-          "average": 0.046226900
+          "median": 0.050044,
+          "average": 0.050044000
         },
         "durations": [
           {
-            "duration": 0.0462269,
-            "location": "file:src/test/resources/features/e-commerce.feature:60"
+            "duration": 0.050044,
+            "location": "file:src/test/resources/features/e-commerce.feature:58"
           }
         ]
       },
       {
         "name": "I save adaptation elementi listeye ekle:1",
         "aggregatedDurations": {
-          "median": 0.0430168,
-          "average": 0.043016800
+          "median": 0.0553512,
+          "average": 0.055351200
         },
         "durations": [
           {
-            "duration": 0.0430168,
-            "location": "file:src/test/resources/features/e-commerce.feature:61"
+            "duration": 0.0553512,
+            "location": "file:src/test/resources/features/e-commerce.feature:59"
           }
         ]
       },
       {
         "name": "I save writer3 elementi listeye ekle:1",
         "aggregatedDurations": {
-          "median": 0.0482839,
-          "average": 0.048283900
+          "median": 0.0495358,
+          "average": 0.049535800
         },
         "durations": [
           {
-            "duration": 0.0482839,
-            "location": "file:src/test/resources/features/e-commerce.feature:62"
+            "duration": 0.0495358,
+            "location": "file:src/test/resources/features/e-commerce.feature:60"
           }
         ]
       },
       {
         "name": "I save titles elementi listeye ekle:1",
         "aggregatedDurations": {
-          "median": 0.0523561,
-          "average": 0.052356100
+          "median": 0.0477702,
+          "average": 0.047770200
         },
         "durations": [
           {
-            "duration": 0.0523561,
-            "location": "file:src/test/resources/features/e-commerce.feature:63"
+            "duration": 0.0477702,
+            "location": "file:src/test/resources/features/e-commerce.feature:61"
           }
         ]
       },
       {
         "name": "I save star1 elementi listeye ekle:1",
         "aggregatedDurations": {
-          "median": 0.0494531,
-          "average": 0.049453100
+          "median": 0.0539073,
+          "average": 0.053907300
         },
         "durations": [
           {
-            "duration": 0.0494531,
-            "location": "file:src/test/resources/features/e-commerce.feature:64"
+            "duration": 0.0539073,
+            "location": "file:src/test/resources/features/e-commerce.feature:62"
           }
         ]
       },
       {
         "name": "I save star2 elementi listeye ekle:1",
         "aggregatedDurations": {
-          "median": 0.0421798,
-          "average": 0.042179800
+          "median": 0.047887,
+          "average": 0.047887000
         },
         "durations": [
           {
-            "duration": 0.0421798,
-            "location": "file:src/test/resources/features/e-commerce.feature:65"
+            "duration": 0.047887,
+            "location": "file:src/test/resources/features/e-commerce.feature:63"
           }
         ]
       },
       {
         "name": "I save star3 elementi listeye ekle:1",
         "aggregatedDurations": {
-          "median": 0.0416523,
-          "average": 0.041652300
+          "median": 0.0440789,
+          "average": 0.044078900
         },
         "durations": [
           {
-            "duration": 0.0416523,
-            "location": "file:src/test/resources/features/e-commerce.feature:66"
+            "duration": 0.0440789,
+            "location": "file:src/test/resources/features/e-commerce.feature:64"
           }
         ]
       }
@@ -636,13 +628,13 @@
       {
         "name": "I send text \"The Jazz Singer\" to  \"search\" element",
         "aggregatedDurations": {
-          "median": 7.2021493,
-          "average": 7.202149300
+          "median": 5.410491,
+          "average": 5.410491000
         },
         "durations": [
           {
-            "duration": 7.2021493,
-            "location": "file:src/test/resources/features/e-commerce.feature:47"
+            "duration": 5.410491,
+            "location": "file:src/test/resources/features/e-commerce.feature:45"
           }
         ]
       }
@@ -654,13 +646,13 @@
       {
         "name": "I compare list",
         "aggregatedDurations": {
-          "median": 0.0034386,
-          "average": 0.003438600
+          "median": 0.0041143,
+          "average": 0.004114300
         },
         "durations": [
           {
-            "duration": 0.0034386,
-            "location": "file:src/test/resources/features/e-commerce.feature:70"
+            "duration": 0.0041143,
+            "location": "file:src/test/resources/features/e-commerce.feature:68"
           }
         ]
       }
@@ -672,13 +664,13 @@
       {
         "name": "I broken image detect",
         "aggregatedDurations": {
-          "median": 11.4137523,
-          "average": 11.413752300
+          "median": 7.5068007,
+          "average": 7.506800700
         },
         "durations": [
           {
-            "duration": 11.4137523,
-            "location": "file:src/test/resources/features/e-commerce.feature:74"
+            "duration": 7.5068007,
+            "location": "file:src/test/resources/features/e-commerce.feature:72"
           }
         ]
       }

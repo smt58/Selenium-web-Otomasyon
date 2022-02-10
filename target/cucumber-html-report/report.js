@@ -113,26 +113,6 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I click \"PAGE_DOWN\" keyboard button",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "MySteps.clickKeyboard(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I click \"PAGE_DOWN\" keyboard button",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "MySteps.clickKeyboard(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
   "name": "I wait 1929 element 5 seconds",
   "keyword": "Then "
 });
