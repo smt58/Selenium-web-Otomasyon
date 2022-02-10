@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="69.90342">
+    <testcase classname="E-commerce" name="Search Control" time="69.90342">
+        <system-out><![CDATA[Given I initialize chrome driver............................................passed
+When I go to "https://www.imdb.com/" url....................................passed
+Then I see home page........................................................passed
+Then I wait menu bar element 5 seconds......................................passed
+When I click element: menu bar index: 1.....................................passed
+Then I click "PAGE_DOWN" keyboard button....................................passed
+And I see search page.......................................................passed
+When I wait oscars element 5 seconds........................................passed
+When I click element: oscars index: 1.......................................passed
+When I click element: 1929 index: 1.........................................passed
+When I click element: the jazz singer index: 1..............................passed
+Then I see search results page..............................................passed
+And I save director elementi listeye ekle:0.................................passed
+And I save writer1 elementi listeye ekle:0..................................passed
+And I save play elementi listeye ekle:0.....................................passed
+And I save writer2 elementi listeye ekle:0..................................passed
+And I save adaptation elementi listeye ekle:0...............................passed
+And I save writer3 elementi listeye ekle:0..................................passed
+And I save titles elementi listeye ekle:0...................................passed
+And I save star1 elementi listeye ekle:0....................................passed
+And I save star2 elementi listeye ekle:0....................................passed
+And I save star3 elementi listeye ekle:0....................................passed
+Then I see home page........................................................passed
+When I click element: anasayfa index: 1.....................................passed
+Then I wait search element 5 seconds........................................passed
+When I send text "The Jazz Singer" to  "search" element.....................passed
+Then I wait ok element 5 seconds............................................passed
+When I click element: ok index: 1...........................................passed
+Then I wait Caz Mugannisi element 5 seconds.................................passed
+When I click element: Caz Mugannisi index: 1................................passed
+Then I see search results page..............................................passed
+And I save director elementi listeye ekle:1.................................passed
+And I save writer1 elementi listeye ekle:1..................................passed
+And I save play elementi listeye ekle:1.....................................passed
+And I save writer2 elementi listeye ekle:1..................................passed
+And I save adaptation elementi listeye ekle:1...............................passed
+And I save writer3 elementi listeye ekle:1..................................passed
+And I save titles elementi listeye ekle:1...................................passed
+And I save star1 elementi listeye ekle:1....................................passed
+And I save star2 elementi listeye ekle:1....................................passed
+And I save star3 elementi listeye ekle:1....................................passed
+Then I see home page........................................................passed
+When I compare list.........................................................passed
+When I click element: see all photos index: 1...............................passed
+When I broken image detect..................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

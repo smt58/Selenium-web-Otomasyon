@@ -1,0 +1,51 @@
+Feature: E-commerce
+
+  Background:                                [90m# src/test/resources/features/e-commerce.feature:3[0m
+    [32mGiven [0m[32mI initialize [0m[32m[1mchrome[0m[32m driver[0m         [90m# MySteps.initializeChromeDriver(String)[0m
+    [32mWhen [0m[32mI go to "[0m[32m[1mhttps://www.imdb.com/[0m[32m" url[0m [90m# MySteps.gotoURL(String)[0m
+    [32mThen [0m[32mI see [0m[32m[1mhome[0m[32m page[0m                     [90m# MySteps.seePage(String)[0m
+
+  @test
+  Scenario: Search Control                                  [90m# src/test/resources/features/e-commerce.feature:9[0m
+    [32mThen [0m[32mI wait [0m[32m[1mmenu bar[0m[32m element [0m[32m[1m5[0m[32m seconds[0m                  [90m# MySteps.waitElement(String,int)[0m
+    [32mWhen [0m[32mI click element: [0m[32m[1mmenu bar[0m[32m index: [0m[32m[1m1[0m                 [90m# MySteps.clickElement(String,int)[0m
+    [32mThen [0m[32mI click "[0m[32m[1mPAGE_DOWN[0m[32m" keyboard button[0m                [90m# MySteps.clickKeyboard(String)[0m
+    [32mAnd [0m[32mI see [0m[32m[1msearch[0m[32m page[0m                                   [90m# MySteps.seePage(String)[0m
+    [32mWhen [0m[32mI wait [0m[32m[1moscars[0m[32m element [0m[32m[1m5[0m[32m seconds[0m                    [90m# MySteps.waitElement(String,int)[0m
+    [32mWhen [0m[32mI click element: [0m[32m[1moscars[0m[32m index: [0m[32m[1m1[0m                   [90m# MySteps.clickElement(String,int)[0m
+    [32mWhen [0m[32mI click element: [0m[32m[1m1929[0m[32m index: [0m[32m[1m1[0m                     [90m# MySteps.clickElement(String,int)[0m
+    [32mWhen [0m[32mI click element: [0m[32m[1mthe jazz singer[0m[32m index: [0m[32m[1m1[0m          [90m# MySteps.clickElement(String,int)[0m
+    [32mThen [0m[32mI see [0m[32m[1msearch results[0m[32m page[0m                          [90m# MySteps.seePage(String)[0m
+    [32mAnd [0m[32mI save [0m[32m[1mdirector[0m[32m elementi listeye ekle:[0m[32m[1m0[0m             [90m# MySteps.save(String,int)[0m
+    [32mAnd [0m[32mI save [0m[32m[1mwriter1[0m[32m elementi listeye ekle:[0m[32m[1m0[0m              [90m# MySteps.save(String,int)[0m
+    [32mAnd [0m[32mI save [0m[32m[1mplay[0m[32m elementi listeye ekle:[0m[32m[1m0[0m                 [90m# MySteps.save(String,int)[0m
+    [32mAnd [0m[32mI save [0m[32m[1mwriter2[0m[32m elementi listeye ekle:[0m[32m[1m0[0m              [90m# MySteps.save(String,int)[0m
+    [32mAnd [0m[32mI save [0m[32m[1madaptation[0m[32m elementi listeye ekle:[0m[32m[1m0[0m           [90m# MySteps.save(String,int)[0m
+    [32mAnd [0m[32mI save [0m[32m[1mwriter3[0m[32m elementi listeye ekle:[0m[32m[1m0[0m              [90m# MySteps.save(String,int)[0m
+    [32mAnd [0m[32mI save [0m[32m[1mtitles[0m[32m elementi listeye ekle:[0m[32m[1m0[0m               [90m# MySteps.save(String,int)[0m
+    [32mAnd [0m[32mI save [0m[32m[1mstar1[0m[32m elementi listeye ekle:[0m[32m[1m0[0m                [90m# MySteps.save(String,int)[0m
+    [32mAnd [0m[32mI save [0m[32m[1mstar2[0m[32m elementi listeye ekle:[0m[32m[1m0[0m                [90m# MySteps.save(String,int)[0m
+    [32mAnd [0m[32mI save [0m[32m[1mstar3[0m[32m elementi listeye ekle:[0m[32m[1m0[0m                [90m# MySteps.save(String,int)[0m
+    [32mThen [0m[32mI see [0m[32m[1mhome[0m[32m page[0m                                    [90m# MySteps.seePage(String)[0m
+    [32mWhen [0m[32mI click element: [0m[32m[1manasayfa[0m[32m index: [0m[32m[1m1[0m                 [90m# MySteps.clickElement(String,int)[0m
+    [32mThen [0m[32mI wait [0m[32m[1msearch[0m[32m element [0m[32m[1m5[0m[32m seconds[0m                    [90m# MySteps.waitElement(String,int)[0m
+    [32mWhen [0m[32mI send text "[0m[32m[1mThe Jazz Singer[0m[32m" to  "[0m[32m[1msearch[0m[32m" element[0m [90m# MySteps.sendText(String,String)[0m
+    [32mThen [0m[32mI wait [0m[32m[1mok[0m[32m element [0m[32m[1m5[0m[32m seconds[0m                        [90m# MySteps.waitElement(String,int)[0m
+    [32mWhen [0m[32mI click element: [0m[32m[1mok[0m[32m index: [0m[32m[1m1[0m                       [90m# MySteps.clickElement(String,int)[0m
+    [32mThen [0m[32mI wait [0m[32m[1mCaz Mugannisi[0m[32m element [0m[32m[1m5[0m[32m seconds[0m             [90m# MySteps.waitElement(String,int)[0m
+    [32mWhen [0m[32mI click element: [0m[32m[1mCaz Mugannisi[0m[32m index: [0m[32m[1m1[0m            [90m# MySteps.clickElement(String,int)[0m
+    [32mThen [0m[32mI see [0m[32m[1msearch results[0m[32m page[0m                          [90m# MySteps.seePage(String)[0m
+    [32mAnd [0m[32mI save [0m[32m[1mdirector[0m[32m elementi listeye ekle:[0m[32m[1m1[0m             [90m# MySteps.save(String,int)[0m
+    [32mAnd [0m[32mI save [0m[32m[1mwriter1[0m[32m elementi listeye ekle:[0m[32m[1m1[0m              [90m# MySteps.save(String,int)[0m
+    [32mAnd [0m[32mI save [0m[32m[1mplay[0m[32m elementi listeye ekle:[0m[32m[1m1[0m                 [90m# MySteps.save(String,int)[0m
+    [32mAnd [0m[32mI save [0m[32m[1mwriter2[0m[32m elementi listeye ekle:[0m[32m[1m1[0m              [90m# MySteps.save(String,int)[0m
+    [32mAnd [0m[32mI save [0m[32m[1madaptation[0m[32m elementi listeye ekle:[0m[32m[1m1[0m           [90m# MySteps.save(String,int)[0m
+    [32mAnd [0m[32mI save [0m[32m[1mwriter3[0m[32m elementi listeye ekle:[0m[32m[1m1[0m              [90m# MySteps.save(String,int)[0m
+    [32mAnd [0m[32mI save [0m[32m[1mtitles[0m[32m elementi listeye ekle:[0m[32m[1m1[0m               [90m# MySteps.save(String,int)[0m
+    [32mAnd [0m[32mI save [0m[32m[1mstar1[0m[32m elementi listeye ekle:[0m[32m[1m1[0m                [90m# MySteps.save(String,int)[0m
+    [32mAnd [0m[32mI save [0m[32m[1mstar2[0m[32m elementi listeye ekle:[0m[32m[1m1[0m                [90m# MySteps.save(String,int)[0m
+    [32mAnd [0m[32mI save [0m[32m[1mstar3[0m[32m elementi listeye ekle:[0m[32m[1m1[0m                [90m# MySteps.save(String,int)[0m
+    [32mThen [0m[32mI see [0m[32m[1mhome[0m[32m page[0m                                    [90m# MySteps.seePage(String)[0m
+    [32mWhen [0m[32mI compare list[0m                                     [90m# MySteps.comparelist()[0m
+    [32mWhen [0m[32mI click element: [0m[32m[1msee all photos[0m[32m index: [0m[32m[1m1[0m           [90m# MySteps.clickElement(String,int)[0m
+    [32mWhen [0m[32mI broken image detect[0m                              [90m# MySteps.brokenimage()[0m
